@@ -1,0 +1,10 @@
+#7th program
+!pip install gensim transformers
+from transformers import pipeline
+summarizer=pipeline("summarization", model="facebook/bart-large-cnn")
+text=input("enter text to summarize:\n")
+if len(text.split())<30:
+    print("text is too short to summarize")
+else:
+    summary=summarizer(text,max_length=50,min_length=30,do_sample=False)[0]['summary_text']
+    print("\nsummary:",summary)

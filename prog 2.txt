@@ -1,0 +1,17 @@
+!pip install gensim
+import gensim.downloader as api
+import numpy as np
+from sklearn.decomposition import PCA
+import matplotlib.pyplot as plt
+model = api.load("glove-wiki-gigaword-100")
+words = ['football', 'basketball', 'cricket', 'tennis', 'swimming', 'golf', 'rugby', 'hockey', 'volleyball', 'baseball']
+vectors = np.array([model[word] for word in words])
+pca = PCA(n_components=2)
+reduced_vectors = pca.fit_transform(vectors)
+plt.scatter(reduced_vectors[:, 0], reduced_vectors[:, 1])
+for i, word in enumerate(words):
+    plt.annotate(word, (reduced_vectors[i, 0], reduced_vectors[i, 1]))
+plt.show()
+input_word = "football"
+similar_words = model.most_similar(input_word, topn=5)
+print(f"Similar words to {input_word}: {similar_words}")
