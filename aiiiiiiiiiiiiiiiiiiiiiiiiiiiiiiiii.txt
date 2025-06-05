@@ -1,0 +1,13 @@
+Artificial Intelligence (AI) refers to the simulation of human intelligence by machines, particularly computer systems. It involves creating algorithms and systems that can perform tasks typically requiring human cognition, such as learning, reasoning, problem-solving, understanding language, and perception. The goal of AI is to build systems that can operate autonomously, adapt to new information, and improve their performance over time.
+
+AI is generally categorized into two main types: narrow AI and general AI. Narrow AI, also called weak AI, is designed to perform specific tasks—like facial recognition, language translation, or playing chess—and is currently the most common form of AI. Examples include virtual assistants like Siri or Alexa, recommendation systems on Netflix and Amazon, or autonomous driving features in cars. These systems excel in their designated areas but cannot perform tasks outside their programmed scope.
+
+General AI, or strong AI, would have the ability to understand, learn, and apply intelligence across a wide range of tasks, much like a human being. This type of AI remains largely theoretical and is the subject of ongoing research and debate within the field.
+
+AI is built using a variety of technologies and approaches, with machine learning (ML) being one of the most prominent. Machine learning enables systems to learn from data without being explicitly programmed. Within ML, deep learning uses neural networks inspired by the human brain to process data in complex ways, powering advancements in image recognition, natural language processing (NLP), and more.
+
+Another branch of AI is natural language processing, which allows machines to understand, interpret, and respond to human language. This is the technology behind chatbots, language translation tools, and voice recognition systems. Computer vision is another key area, enabling machines to interpret and analyze visual information from the world.
+
+AI has vast applications across numerous fields. In healthcare, it helps diagnose diseases and predict patient outcomes. In finance, it detects fraud and guides investment decisions. In transportation, it powers self-driving cars. Even in creative fields like art and music, AI is being used to generate new content.
+
+Despite its benefits, AI raises important ethical and social issues. Concerns include job displacement due to automation, algorithmic bias, lack of transparency, and privacy risks. There is also ongoing debate about how much control humans should maintain over increasingly autonomous systems.
